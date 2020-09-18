@@ -29,8 +29,9 @@
 	<f bes d> <f bes d> <f bes des> <f bes des> % come play with
 	<f bes c>4 r8 c' | % me. The
 	<a c e>8 <a c e>~ <a c e> % fish are
-	<a c e> <a c e>4~\arpeggio ^\markup{"Shake!"} % calling
-	<a c e>8 | % come
+	<a c e> <a c e>4~\arpeggio ^\markup{"Shake!"} <a c e>8 % calling
+	c8 | % come
+
 	
 	}
       
