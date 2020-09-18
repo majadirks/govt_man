@@ -1,6 +1,8 @@
 				% Government Man
 \version "2.18.2"
 
+#(set-global-staff-size 18) % Shrink music onto one page
+
 \header {
   title = "Hey Everyone (I Was a Government Man)"
   composer = "Lyrics and melody by Brian Dirks"
