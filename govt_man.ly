@@ -1,6 +1,12 @@
 				% Government Man
 \version "2.18.2"
 
+\header {
+  title = "Hey Everyone (I Was a Government Man)"
+  composer = "Lyrics and melody by Brian Dirks"
+  arranger = "Piano arrangement by Matthew Dirks"
+  }
+
 \score {
   \relative c' {
       \new PianoStaff = "piano" <<
@@ -55,6 +61,7 @@
       
       \new Staff = "lower" {
 	\clef "bass"
+	\key f \major
 	% \ottava #-1
 	% Vamp intro
 	<f,,,, f'>4 r4 <a a'> r4 | <bes bes'> r8 <b b'>~ <b b'>2 |
@@ -68,7 +75,17 @@
 	<f, f'> 4 r4 <a a'> r4 | <bes bes'>4 r4 <b b'>8 r8 r4 |
 	<c c'>4 <f f'> <d d'>2 |
 	<c, c'>8 <d d'> <e e'> <f f'> r8 <c c'>~ <c c'>4 |
-	
+				% Doctor called ...
+	<g' g'>4 <e'' g c> <f,, f'> <f'' a c> |
+	<a,, a'> <bes bes'> <b b'> <c c'>8 <f f'> |
+	r8 <ees ees'> r <c c'> <a a'> <bes bes'> <c c'>4 |
+	<d d'>4 <f' bes des> <bes,, bes'> <f'' bes c> |
+	<a, a'>4  <a' c e> <e, e'> <a' c e> |
+	<d,, d'>4 <f' bes d> <f bes d> <bes,, bes'> |
+	<c c'>4 <f f'> <d d'>
+	<c c'>8 <des des'>~ | <des des'> <c c'> % "Come up to ..."
+	<aes aes'> <g g'> <f f'>4 % "... hike and ski"
+	<c c'>4 \bar "||"
 	
 	}
     >>
