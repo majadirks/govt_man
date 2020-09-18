@@ -21,7 +21,7 @@
 	f8 f f f~ f c~ c d~ | % Time to say by to work
 	d ces d ces d c r c | % as I have known it. For
 	f8 f f f~ f c d c | % thirty-two years I've been a
-	aes aes g f r4 r8 c'' | % government man. The
+	aes aes g f r4 r8 c'' \bar "||" % government man. The
 	<g c e>8 c~ c <a c f>~ <a c f> c~ c <a c f> ~ | % Dr. called, he said
 	<a c f> c d cis d c r c | % I need vacation. My
 	<a c f>8 <a c ees>~ <a c ees> <a c f>~ % friends all called
@@ -54,7 +54,22 @@
 	}
       
       \new Staff = "lower" {
-        \clef "bass"
+	\clef "bass"
+	% \ottava #-1
+	% Vamp intro
+	<f,,,, f'>4 r4 <a a'> r4 | <bes bes'> r8 <b b'>~ <b b'>2 |
+	<c c'> 4 <f f'> <d d'>2 | <fis, fis'>8 <g g'> r <c c'>~ <c c'>2 |
+	<f, f'>4 r4 <a a'> r4 | <bes bes'> r8 <b b'>~ <b b'>2 |
+	<c c'>4 <f f'> <d d'> <c c'>8 <des des'>~ |
+	<des des'> <c c'> <aes aes'> <g g'> <f f'>4 <c c'>4 |
+				% Lyrics start
+	<f f'>4 r4 <a a'> r4 | <bes bes'>4 r4 <b b'>8 r8 r4 |
+	<f f'>4 r4 <a a'> r4 | <bes bes'>8 <b b'> r8 <c c'>~ <c c'>2 |
+	<f, f'> 4 r4 <a a'> r4 | <bes bes'>4 r4 <b b'>8 r8 r4 |
+	<c c'>4 <f f'> <d d'>2 |
+	<c, c'>8 <d d'> <e e'> <f f'> r8 <c c'>~ <c c'>4 |
+	
+	
 	}
     >>
       
