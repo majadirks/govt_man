@@ -44,7 +44,13 @@
 	\tuplet 3/2 {<a cis e> <a cis> <a cis>} % semi-re-
 	\tuplet 3/2 {<g cis e> <g d'> <g cis>} %-tirement will
 	<f b d>8 cis' d e <a, d f>4 r8 c % give me time to fudge! The
-	
+	<a d f>8 d~ d <g, c! e>~ <g c e> c~ c  % day wil come when 
+	<g a cis e>~ | <g a cis e> dis '% I will
+	<g, a cis e> dis' <g, a cis e> % work no more
+	c c c % but o'er the
+	<a c f>4 <a c f> <a d f> % next few years
+	r4 | r2 r4 % (I'll settle down the score)
+	<c e g bes c>4 ^\markup{"D.S. al Fine"} \bar "|."
 	}
       
       \new Staff = "lower" {
