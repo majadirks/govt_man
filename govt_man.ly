@@ -13,7 +13,7 @@
   \relative c' {
       \new PianoStaff = "piano" <<
       \new Staff = "upper" {
-	
+	\tempo "Easy Swing" 4 = 135
 				% Intro vamp
 	\clef treble
 	\key f \major
