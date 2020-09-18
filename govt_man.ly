@@ -23,13 +23,14 @@
 	r2 r4 <c' e g bes c> \bar "||"
 	\mark \markup { \musicglyph #"scripts.segno" }
 	f,,8 a c f~ f4. c8 | % Hey everyone! To-
-	d8 ces d ces d c r c | % -day is kind of special. I've
+	d8 cis d cis d c r c | % -day is kind of special. I've
 	f8 f f f~ f c~ c d~ | % had all the fun a guy
 	d des~ des c~ c2 |    % can have
 	f8 f f f~ f c~ c d~ | % Time to say by to work
-	d ces d ces d c r c | % as I have known it. For
+	d cis d cis d c r c | % as I have known it. For
 	f8 f f f~ f c d c | % thirty-two years I've been a
-	aes aes g f r4 r8 c'' \bar "||" % government man. The
+	aes aes g f ^\markup{"Fine"} % government man
+	r4 r8 c'' \bar "||" % The
 	<g c e>8 c~ c <a c f>~ <a c f> c~ c <a c f> ~ | % Dr. called, he said
 	<a c f> c d cis d c r c | % I need vacation. My
 	<a c f>8 <a c ees>~ <a c ees> <a c f>~ % friends all called
@@ -81,7 +82,7 @@
 	<g' g'>4 <e'' g c> <f,, f'> <f'' a c> |
 	<a,, a'> <bes bes'> <b b'> <c c'>8 <f f'> |
 	r8 <ees ees'> r <c c'> <a a'> <bes bes'> <c c'>4 |
-	<d d'>4 <f' bes des> <bes,, bes'> <f'' bes c> |
+	<f f'>4 <f' bes des> <bes,, bes'> <f'' bes c> |
 	<a, a'>4  <a' c e> <e, e'> <a' c e> |
 	<d,, d'>4 <f' bes d> <f bes d> <bes,, bes'> |
 	<c c'>4 <f f'> <d d'>
