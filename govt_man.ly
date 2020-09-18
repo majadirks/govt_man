@@ -42,7 +42,7 @@
 	<a c f> <a c f> <a c ees> <a c f>~ <a c f> % mountains they call...
 	r8 r4 | r2 r4 r8 c \bar "||" % (come up to hike and ski). I
 
-				% Bridge
+				% Bridge RH
 	<a d f> d r8 <g, c e>~ <g c e> % wont' write songs
 	<g c d>~ <g c d>4 | % I
 	\tuplet 3/2 {<a cis e> <a cis> <a cis>} % won't be a
@@ -83,9 +83,22 @@
 	<a, a'>4  <a' c e> <e, e'> <a' c e> |
 	<d,, d'>4 <f' bes d> <f bes d> <bes,, bes'> |
 	<c c'>4 <f f'> <d d'>
-	<c c'>8 <des des'>~ | <des des'> <c c'> % "Come up to ..."
-	<aes aes'> <g g'> <f f'>4 % "... hike and ski"
+	<c c'>8( <des des'>~ | <des des'> <c c'> % "Come up to ..."
+	<aes aes'> <g g'> <f f'>4) % "... hike and ski"
 	<c c'>4 \bar "||"
+
+	% Bridge LH
+	<d' d'>4 <d' f a> <c, c'> <c' e g> |
+	<a, a'>4 <a' cis e g> <a cis e a> <a, a'> |
+	<g' g'>4 <cis e> <a a'> <cis e> |
+	<d, d'> <d' f a> <a, a'> <d' f a> |
+	<d, d'>4 <d' f a> <c, c'> <c' e g> |
+	<a, a'>4 <a' cis e g> <a cis e a> <c, c'> |
+	<f f'> <f' a c> <d, d'>
+	<c c'>8 <des des'>~ |<des des'> % I'll set-
+	<c c'> <aes aes'> <g g'> %-tle down the
+	<f f'>4 % score
+	<c c'>
 	
 	}
     >>
