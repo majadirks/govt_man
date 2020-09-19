@@ -7,6 +7,7 @@
   title = "Hey Everyone (I Was a Government Man)"
   composer = "Lyrics and melody by Brian Dirks"
   arranger = "Piano arrangement by Matthew Dirks"
+  copyright = "September 2020"
   }
 
 \score {
@@ -17,8 +18,13 @@
 				% Intro vamp
 	\clef treble
 	\key f \major
-	R1 R1 R1 R1 |
-	\repeat unfold 4 {r4 <f a c ees f>}
+				%R1 R1 R1 R1 |
+	% snaps
+	\override NoteHead.style = #'cross
+	r4 c'4 -\markup{"snap"} r4 c4 |
+	\repeat unfold 6 {r4 c4} |
+	\revert NoteHead.style % end snaps
+	\repeat unfold 4 {r4 <f, a c ees f>}
 	<f aes c d f>8 <f aes c d f> r <f aes c d f> r2 |
 	r2 r4 <c' e g bes c> \bar "||"
 	\mark \markup { \musicglyph #"scripts.segno" }
