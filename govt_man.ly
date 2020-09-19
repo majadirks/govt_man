@@ -18,8 +18,7 @@
 				% Intro vamp
 	\clef treble
 	\key f \major
-				%R1 R1 R1 R1 |
-	% snaps
+		% snaps
 	\override NoteHead.style = #'cross
 	r4 c'4 -\markup{"snap"} r4 c4 |
 	\repeat unfold 6 {r4 c4} |
